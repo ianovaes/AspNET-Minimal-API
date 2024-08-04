@@ -64,7 +64,7 @@ namespace RangoAgil.API.Migrations
 
             migrationBuilder.InsertData(
                 table: "Ingredientes",
-                columns: new[] { "Id", "Nome" },
+                columns: ["Id", "Nome"],
                 values: new object[,]
                 {
                     { 1, "Carne de Vaca" },
@@ -95,7 +95,7 @@ namespace RangoAgil.API.Migrations
 
             migrationBuilder.InsertData(
                 table: "Rangos",
-                columns: new[] { "Id", "Nome" },
+                columns: ["Id", "Nome"],
                 values: new object[,]
                 {
                     { 1, "Ensopado Flamengo de Carne de Vaca com Chicória" },
@@ -107,7 +107,7 @@ namespace RangoAgil.API.Migrations
 
             migrationBuilder.InsertData(
                 table: "IngredienteRango",
-                columns: new[] { "IngredientesId", "RangosId" },
+                columns: ["IngredientesId", "RangosId"],
                 values: new object[,]
                 {
                     { 1, 1 },
