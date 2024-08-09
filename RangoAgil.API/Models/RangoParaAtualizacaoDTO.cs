@@ -1,4 +1,6 @@
-﻿namespace RangoAgil.API.Entities;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace RangoAgil.API.Models;
 
 public class RangoParaAtualizacaoDTO
 {
